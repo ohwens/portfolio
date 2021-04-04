@@ -1,3 +1,11 @@
 #brandName {
     padding-left: 20px;
 }
+
+.offset:before { 
+	display: block; 
+ 	content: " "; 
+  	height: 150px;      /* Give height of your fixed element */
+        margin-top: -150px; /* Give negative margin of your fixed element */  	
+        visibility: hidden; 
+}
